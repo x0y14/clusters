@@ -7,8 +7,10 @@
  */
 export function Header(): React.JSX.Element {
 	return (
-		<div className="w-full h-1/15 bg-amber-200 flex items-center justify-center">
-			<div>Header</div>
+		<div className="w-full h-1/15 bg-gray-400 flex justify-between gap-3">
+			<div className="bg-gray-700 p-2">ICON</div>
+			<div className="bg-gray-700 p-2">🔍Search</div>
+			<div className="bg-gray-700 p-2">Login</div>
 		</div>
 	)
 }
