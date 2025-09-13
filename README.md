@@ -2,8 +2,8 @@
 
 ```shell
 .
-├── clusters.code-workspace # フォルダ分けファイル
-├── docs # わからないことがあったらここを読む
-├── frontend # フロントエンドのファイルが入っている
-└── README.md # 読む
+├── docs  # こまったら読む
+├── frontend  # フロントエンドが入っている
+├── Makefile  # コマンドは全てここに書く
+└── README.md  # 読む
 ```
