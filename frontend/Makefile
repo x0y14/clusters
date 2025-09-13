@@ -15,4 +15,4 @@ build: ## フロントエンドを静的ファイルとして生成する
 
 .PHONY: preview
 preview: ## フロントエンド単体の動作確認
-	npm run 
+	npm run dev
