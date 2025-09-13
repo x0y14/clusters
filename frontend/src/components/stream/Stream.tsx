@@ -26,6 +26,11 @@ export function StreamDisplay(): React.JSX.Element {
 			<Post postData={posts[0]} />
 			<Post postData={posts[0]} />
 			<Post postData={posts[0]} />
+			<Post postData={posts[0]} />
+			<Post postData={posts[0]} />
+			<Post postData={posts[0]} />
+			<Post postData={posts[0]} />
+			<Post postData={posts[0]} />
 		</div>
 	)
 }

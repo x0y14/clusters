@@ -1,4 +1,5 @@
-import { StreamDisplay } from "@/components/stream/Stream"
+import { StreamDisplay } from "@/components//stream/Stream"
+import { SideContents } from "@/components/stream/SideContents"
 
 /**
  * Content
@@ -9,8 +10,9 @@ import { StreamDisplay } from "@/components/stream/Stream"
  */
 export function Content(): React.JSX.Element {
 	return (
-		<div className="min-h-0 w-full bg-blue-500 overflow-y-auto">
+		<div className="min-h-0 w-full bg-blue-500 flex overflow-y-auto justify-center">
 			<StreamDisplay />
+			<SideContents />
 		</div>
 	)
 }
