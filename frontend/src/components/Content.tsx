@@ -1,4 +1,4 @@
-import { StreamDisplay } from "./stream/Stream"
+import { StreamDisplay } from "@/components/stream/Stream"
 
 /**
  * Content

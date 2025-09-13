@@ -1,4 +1,4 @@
-import { useSideNaviIsOpen } from "./store"
+import { useSideNaviIsOpen } from "@/components/store"
 
 /**
  * SideNavi
