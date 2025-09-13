@@ -10,6 +10,10 @@ clean: ## 生成ファイルなどを削除して掃除する
 	rm -rf dist
 	rm -rf node_modules
 
+.PHONY: setup
+setup: ## 環境構築
+	npm ci
+
 .PHONY: build
 build: ## フロントエンドを静的ファイルとして生成する
 	npm run build
