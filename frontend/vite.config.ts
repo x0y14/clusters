@@ -1,7 +1,28 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+	root: path.resolve(__dirname, "./src/pages"),
+
+	plugins: [react()],
+	// public はプロジェクト直下を使い続ける（デフォルト互換）
+	// publicDir: path.resolve(__dirname, "public"),
+	build: {
+		// 出力先もデフォルト互換でプロジェクト直下 dist/
+		outDir: path.resolve(__dirname, "./dist"),
+		emptyOutDir: true,
+	},
+	resolve: {
+		alias: {
+			"@": path.resolve(__dirname, "./src"),
+		},
+		// alias: [
+		// 	{
+		// 		find: "@",
+		// 		replacement: fileURLToPath(new URL("./src", import.meta.url)),
+		// 	},
+		// ],
+	},
+});
