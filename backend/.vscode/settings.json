@@ -4,6 +4,11 @@
     "source.fixAll.biome": "explicit"
   },
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff" // フォーマッターをRuffに設定
+    "editor.defaultFormatter": "charliermarsh.ruff", // フォーマッターをRuffに設定
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit",
+      "source.sortImports": "explicit",
+      "source.fixAll": "explicit"
+    }
   }
 }
