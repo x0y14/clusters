@@ -8,6 +8,7 @@ help: ## ヘルプを表示する
 .PHONY: clean
 clean: ## 生成ファイルなどを削除して掃除する
 	rm -rf dist
+	rm -rf node_modules
 
 .PHONY: build
 build: ## フロントエンドを静的ファイルとして生成する
