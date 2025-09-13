@@ -1,4 +1,4 @@
-import { FaComment, FaHeart, FaRegHeart } from "react-icons/fa6"
+import { FaComment, FaHeart } from "react-icons/fa6"
 import { UserIcon } from "@/components/post/UserIcon"
 import { formatTimeAgo } from "@/components/post/utils"
 import type { PostData } from "@/models/post"
