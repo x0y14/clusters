@@ -1,3 +1,3 @@
 export const App = (): React.JSX.Element => {
-	return <div>a</div>
+	return <div className="text-2xl text-red-100">a</div>
 }
