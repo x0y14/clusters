@@ -28,7 +28,7 @@ const posts: PostData[] = [
  */
 export function Content(): React.JSX.Element {
 	return (
-		<div className="flex-1 min-h-0 w-full bg-blue-500 overflow-y-auto flex flex-col items-center gap-2 p-4">
+		<div className="flex-1 min-h-0 w-full bg-blue-500 overflow-y-auto flex flex-col items-center gap-2 p-2">
 			<Post postData={posts[0]} />
 			<Post postData={posts[0]} />
 			<Post postData={posts[0]} />
